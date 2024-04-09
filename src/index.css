@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* direction: rtl; */
+  font-family: "Cairo", sans-serif;
+}
+body{
+  /* height: 100vh; */
+  margin: 0px;
+
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 2px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dadada;
+  height: 2px !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  height: 2px !important;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7a7a7a;
+}
