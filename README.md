@@ -1,1 +1,2 @@
-# event-attendance-web
+# Project Title
+event-attendance-web
